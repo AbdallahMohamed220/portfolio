@@ -1,0 +1,106 @@
+[
+  {
+    "projectId": "taher",
+    "store": "googlePlay",
+    "cvUrl": "https://shorturl.at/eDUZI",
+    "resolvedUrl": null,
+    "evidence": "short link does not resolve (curl, browser UA): https://shorturl.at/eDUZI -> 301 https://www.shorturl.at/eDUZI -> HTTP 200 with the shorturl.at \"404 Page Not Found\" page and no redirect. Control code https://shorturl.at/wDSsL with the same headers -> 302 to play.google.com",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "taher",
+    "store": "appStore",
+    "cvUrl": "https://shorturl.at/5G3Ke",
+    "resolvedUrl": null,
+    "evidence": "short link does not resolve (curl, browser UA): https://shorturl.at/5G3Ke -> 301 https://www.shorturl.at/5G3Ke -> HTTP 200 with the shorturl.at \"404 Page Not Found\" page and no redirect. Control code https://shorturl.at/wDSsL with the same headers -> 302 to play.google.com",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "home-experience",
+    "store": "googlePlay",
+    "cvUrl": "https://tinyurl.com/bf4kc33p",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.home_experience.home_experience",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.home_experience.home_experience; 404 https://play.google.com/store/apps/details?id=com.home_experience.home_experience&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.home_experience.home_experience&gl=SA; 404 https://play.google.com/store/apps/details?id=com.home_experience.home_experience&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.home_experience.home_experience&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "fix-infinity",
+    "store": "googlePlay",
+    "cvUrl": "https://tinyurl.com/26vka4wa",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity; 404 https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity&gl=SA; 404 https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.fix_infinity.fix_infinity&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "fix-infinity",
+    "store": "appStore",
+    "cvUrl": "https://shorturl.at/iosGU",
+    "resolvedUrl": null,
+    "evidence": "short link does not resolve (curl, browser UA): https://shorturl.at/iosGU -> 301 https://www.shorturl.at/iosGU -> HTTP 200 with the shorturl.at \"404 Page Not Found\" page and no redirect. Control code https://shorturl.at/wDSsL with the same headers -> 302 to play.google.com",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "alwsata-employees",
+    "store": "appStore",
+    "cvUrl": "https://shorturl.at/5vwVn",
+    "resolvedUrl": null,
+    "evidence": "short link does not resolve (curl, browser UA): https://shorturl.at/5vwVn -> 301 https://www.shorturl.at/5vwVn -> HTTP 200 with the shorturl.at \"404 Page Not Found\" page and no redirect. Control code https://shorturl.at/wDSsL with the same headers -> 302 to play.google.com",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "al7feaz",
+    "store": "googlePlay",
+    "cvUrl": "https://t.ly/hjnCd",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz; 404 https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz&gl=SA; 404 https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.alhafeaz.alhafeaz&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "al7feaz",
+    "store": "appStore",
+    "cvUrl": "https://t.ly/3_iqZ",
+    "resolvedUrl": "https://apps.apple.com/us/app/al7feaz/id1632115419",
+    "evidence": "iTunes lookup id=1632115419 resultCount by country: us=0, sa=0, kw=0, ae=0, eg=0, qa=0, bh=0, om=0, jo=0, gb=0",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "doctorcrypto",
+    "store": "googlePlay",
+    "cvUrl": "https://tinyurl.com/fbpfh6u7",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto; 404 https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto&gl=SA; 404 https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.DoctorCrypto.doctor_crypto&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "chkchk",
+    "store": "googlePlay",
+    "cvUrl": "https://t.ly/rzozJ",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.chkchk.chkchk",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.chkchk.chkchk; 404 https://play.google.com/store/apps/details?id=com.chkchk.chkchk&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.chkchk.chkchk&gl=SA; 404 https://play.google.com/store/apps/details?id=com.chkchk.chkchk&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.chkchk.chkchk&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "chkchk",
+    "store": "appStore",
+    "cvUrl": "https://t.ly/qQ4pP",
+    "resolvedUrl": "https://apps.apple.com/us/app/chkchk-app/id1602066977",
+    "evidence": "iTunes lookup id=1602066977 resultCount by country: us=0, sa=0, kw=0, ae=0, eg=0, qa=0, bh=0, om=0, jo=0, gb=0",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "messayel",
+    "store": "googlePlay",
+    "cvUrl": "https://rb.gy/l3ge9i",
+    "resolvedUrl": "https://play.google.com/store/apps/details?id=com.AZ.messayel",
+    "evidence": "Play listing HTTP status (curl, browser UA): 404 https://play.google.com/store/apps/details?id=com.AZ.messayel; 404 https://play.google.com/store/apps/details?id=com.AZ.messayel&hl=en&gl=US; 404 https://play.google.com/store/apps/details?id=com.AZ.messayel&gl=SA; 404 https://play.google.com/store/apps/details?id=com.AZ.messayel&hl=ar&gl=SA; 404 https://play.google.com/store/apps/details?id=com.AZ.messayel&gl=KW",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  },
+  {
+    "projectId": "messayel",
+    "store": "appStore",
+    "cvUrl": "https://rb.gy/b3lk1u",
+    "resolvedUrl": "https://apps.apple.com/us/app/messayel/id1602085490",
+    "evidence": "iTunes lookup id=1602085490 resultCount by country: us=0, sa=0, kw=0, ae=0, eg=0, qa=0, bh=0, om=0, jo=0, gb=0",
+    "checkedAt": "2026-11-18T13:50:04Z"
+  }
+]

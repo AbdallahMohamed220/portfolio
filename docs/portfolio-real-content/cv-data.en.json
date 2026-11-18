@@ -1,0 +1,280 @@
+{
+  "_meta": {
+    "source": "C:\\Users\\Evision\\Downloads\\Abdallah_Mohamed_Resume.pdf",
+    "sourceSha256": "6f6609a598cb3990c90919fb99c92579b645a9416a683d1938d01867753be147",
+    "sourceBytes": 175811,
+    "pages": 3,
+    "notes": "English only. Spelling fixed, meaning unchanged. Every URL is copied verbatim from a /URI annotation in the PDF. A null URL means the CV has no such link; that store is listed in hiddenStores and its button must be hidden (user decision 2026-11-18). Mapping evidence: 03-step-1-extract-cv.md. User decisions 2026-11-18: Alriyadh App role = Mobile Developer; E.VISION apps include Alriyadh App and Waste Transportation Request; Bedayat contributions intentionally empty."
+  },
+  "profile": {
+    "name": "Abdallah Mohamed",
+    "role": "Mobile Developer",
+    "location": "Cairo",
+    "summary": "Dedicated and results-driven Flutter developer with a proven track record of designing, implementing, testing, and maintaining complex applications within diverse industries. Over the past 5 years, I have honed my skills in crafting seamless user interfaces and robust functionalities using the Flutter framework. My commitment to staying abreast of the latest technologies, coupled with a passion for creating engaging user experiences, sets me apart in the dynamic field of mobile app development."
+  },
+  "contact": {
+    "email": "Dev.Fluttery@gmail.com",
+    "emailUri": "mailto:Dev.Fluttery@gmail.com",
+    "phone": "01147234230",
+    "phoneUriInPdf": "tel:01147234230",
+    "phoneInternational": "+201147234230",
+    "phoneDisplay": "+20 114 723 4230",
+    "github": "https://github.com/AbdallahMohamed220",
+    "linkedin": "https://www.linkedin.com/in/abdallah-mohamed-%F0%9F%87%B5%F0%9F%87%B8-0b4270183/",
+    "stackoverflow": "https://shorturl.at/QYQxr"
+  },
+  "projects": [
+    {
+      "name": "Alriyadh App",
+      "period": "09/2025 – 11/2025",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "The Al Riyadh Waste Management System is a comprehensive platform tailored to enhance waste management operations in Al Riyadh, with features designed for real-time tracking, playback and service charts.",
+      "contributions": [
+        "Maps (markers, polyline drawing)",
+        "Charts"
+      ],
+      "googlePlayUrl": "https://shorturl.at/wDSsL",
+      "appStoreUrl": "https://shorturl.at/xli1x",
+      "hiddenStores": []
+    },
+    {
+      "name": "Waste Transportation Request",
+      "period": "01/2025 – 03/2025",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "Waste Transportation Request is an app with two user types: an admin/advisor who can add requests, and a driver who receives a notification for each request, accepts it, views it on the map, opens the map to navigate to it, and completes the request by attaching an image.",
+      "contributions": [
+        "Notifications in foreground, background and terminated (killed) app states",
+        "Google Maps and in-app navigation",
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Deployed the app"
+      ],
+      "googlePlayUrl": "https://shorturl.at/9RvLv",
+      "appStoreUrl": "https://shorturl.at/S4dpi",
+      "hiddenStores": []
+    },
+    {
+      "name": "Taher",
+      "period": "02/2024 – 05/2024",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "Taher, built with E.VISION, manages waste complaints in Saudi Arabia: an administrator can log in, add a complaint and follow its status.",
+      "contributions": [
+        "Offline mode: an administrator can save a complaint locally and upload it to the server once back online",
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Deployed the app"
+      ],
+      "googlePlayUrl": "https://shorturl.at/eDUZI",
+      "appStoreUrl": "https://shorturl.at/5G3Ke",
+      "hiddenStores": []
+    },
+    {
+      "name": "Home Experience",
+      "period": "06/2023 – 09/2023",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "A user-friendly app for furniture sales, focusing on seamless e-commerce integration and an intuitive interface.",
+      "contributions": [
+        "Deep linking with GoRouter",
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Handled notifications",
+        "Deployed the app"
+      ],
+      "googlePlayUrl": "https://tinyurl.com/bf4kc33p",
+      "appStoreUrl": "https://t.ly/BkTG9",
+      "hiddenStores": []
+    },
+    {
+      "name": "Fix Infinity",
+      "period": "03/2023 – 06/2023",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "An app focused on electronic device repairs and product sales.",
+      "contributions": [
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Handled notifications",
+        "Deployed the app"
+      ],
+      "challenge": "Using Pusher to handle real-time chat.",
+      "googlePlayUrl": "https://tinyurl.com/26vka4wa",
+      "appStoreUrl": "https://shorturl.at/iosGU",
+      "hiddenStores": []
+    },
+    {
+      "name": "Alwsata Real Estate Employees",
+      "period": "05/2022 – present",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "An app that provides accounts for Alwsata Real Estate employees to facilitate their work with the Alwsata system.",
+      "contributions": [
+        "Built part of the UI",
+        "Integrated RESTful APIs"
+      ],
+      "googlePlayUrl": "https://tinyurl.com/bdd9vks7",
+      "appStoreUrl": "https://shorturl.at/5vwVn",
+      "hiddenStores": []
+    },
+    {
+      "name": "Alwsata Real Estate Co",
+      "period": "05/2022 – present",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "An app that simplifies the complexities of real estate transactions by offering intuitive financial tools. Users can effortlessly navigate mortgage calculations, explore financing options and deal with their own advisor.",
+      "contributions": [
+        "Built part of the UI",
+        "Integrated RESTful APIs"
+      ],
+      "googlePlayUrl": "https://tinyurl.com/5n9a232e",
+      "appStoreUrl": "https://tinyurl.com/atn6h2er",
+      "hiddenStores": []
+    },
+    {
+      "name": "Al7feaz",
+      "period": "03/2022 – 05/2022",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "A user-friendly mobile app designed for seamless product transactions. With a focus on simplicity, the app allows users to effortlessly sell products, generate invoices for customers and streamline the checkout process. Al7feaz also features convenient QR code scanning, enhancing the efficiency of transactions.",
+      "contributions": [
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Handled QR code scanning",
+        "Deployed the app"
+      ],
+      "googlePlayUrl": "https://t.ly/hjnCd",
+      "appStoreUrl": "https://t.ly/3_iqZ",
+      "hiddenStores": []
+    },
+    {
+      "name": "DoctorCrypto",
+      "period": "01/2022 – 03/2022",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "This app is designed to provide personalized recommendations tailored to your crypto investment goals. Whether you're a seasoned investor or just starting, DoctorCrypto analyzes market trends and your preferences to offer clear, actionable suggestions. Stay informed, make informed decisions.",
+      "contributions": [
+        "Built the UI",
+        "Integrated with Firebase",
+        "Handled free and premium accounts",
+        "Deployed the app"
+      ],
+      "googlePlayUrl": "https://tinyurl.com/fbpfh6u7",
+      "appStoreUrl": null,
+      "hiddenStores": ["appStore"]
+    },
+    {
+      "name": "ChkChk",
+      "period": "11/2021 – 12/2021",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "ChkChk is a versatile e-commerce app designed for simplicity and practicality. It allows users to effortlessly browse and purchase a variety of products. What sets ChkChk apart is its unique capability to facilitate orders for sending packages to others. The app also features a real-time map, providing users with live updates on the status and location of their orders and deliveries.",
+      "contributions": [
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Handled notifications",
+        "Deployed the app"
+      ],
+      "challenge": "Working with Google Maps and handling real-time location.",
+      "googlePlayUrl": "https://t.ly/rzozJ",
+      "appStoreUrl": "https://t.ly/qQ4pP",
+      "hiddenStores": []
+    },
+    {
+      "name": "Messayel",
+      "period": "10/2021 – 11/2021",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "Messayel is an app tailored for aspiring knights and horse enthusiasts. This unique platform connects users with trusted trainers and provides a dedicated space for scheduling horse riding lessons. With a built-in store, Messayel also offers a curated selection of knighthood essentials, from rider helmets to specialized tools. It's your gateway to an authentic knighthood experience, bringing together training, equipment and the spirit of chivalry in one convenient app.",
+      "contributions": [
+        "Built the UI",
+        "Integrated RESTful APIs",
+        "Handled notifications",
+        "Deployed the app"
+      ],
+      "challenge": "Integrating the Tap payment gateway to handle payments.",
+      "googlePlayUrl": "https://rb.gy/l3ge9i",
+      "appStoreUrl": "https://rb.gy/b3lk1u",
+      "hiddenStores": []
+    },
+    {
+      "name": "Bedayat",
+      "period": "08/2021 – 09/2021",
+      "role": "Mobile Developer",
+      "tech": "Flutter",
+      "description": "Bedayat is the go-to app for parents with children in kindergarten. Stay connected with your child's day in real time, from their arrival through the kindergarten gate to daily activities like meals. With personalized accounts for each child, Bedayat keeps you informed and engaged, letting you care for your little one with ease. It's your window into your child's daily adventures and a convenient tool for ensuring their well-being at every step.",
+      "contributions": [],
+      "contributionsNote": "Intentionally empty: the CV lists no key contributions for Bedayat (user decision 2026-11-18). The card hides the contributions block when the list is empty.",
+      "googlePlayUrl": "https://tinyurl.com/5efpshce",
+      "appStoreUrl": "https://rb.gy/aj2cfi",
+      "hiddenStores": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "E.VISION for Information Technology",
+      "companyUrl": "http://www.evision-corp.com/",
+      "role": "Mobile Developer",
+      "period": "12/2023 – present",
+      "location": "Cairo",
+      "apps": ["Alriyadh App", "Waste Transportation Request", "Taher"]
+    },
+    {
+      "company": "Alwsata",
+      "companyUrl": "https://alwsata.com.sa/",
+      "role": "Mobile Developer",
+      "period": "08/2022 – present",
+      "location": "Saudi Arabia",
+      "apps": ["Alwsata Real Estate Co", "Alwsata Real Estate Employees"]
+    },
+    {
+      "company": "Csskw",
+      "companyUrl": "https://csskw.net/",
+      "role": "Mobile Developer",
+      "period": "01/2022 – 07/2022",
+      "location": "Kuwait",
+      "apps": ["Al7feaz", "Messayel", "ChkChk"]
+    },
+    {
+      "company": "Rizme",
+      "companyUrl": "https://www.linkedin.com/company/rizme/",
+      "role": "Mobile Developer",
+      "period": "05/2021 – 12/2021",
+      "location": "Egypt",
+      "apps": ["Bedayat"]
+    }
+  ],
+  "skills": [
+    { "name": "Flutter", "description": "Proficient in building cross-platform mobile applications using the Flutter framework." },
+    { "name": "Dart", "description": "Strong command of Dart, the language used for Flutter app development." },
+    { "name": "State Management", "description": "Knowledge of various state management techniques in Flutter (Provider, BLoC, GetX, Riverpod)." },
+    { "name": "API Integration", "description": "Extensive experience in integrating RESTful APIs and third-party services into Flutter applications." },
+    { "name": "Firebase", "description": "Expertise in using Firebase services for authentication, database and cloud functions." },
+    { "name": "Local Database", "description": "Proficient in implementing and managing local databases using tools like SQLite or Hive." },
+    { "name": "Version Control", "description": "Experience with version control systems, such as Git, for efficient collaboration and code management." },
+    { "name": "CI/CD", "description": "Familiarity with CI/CD pipelines to automate the testing and deployment processes." },
+    { "name": "Testing", "description": "Skilled in writing unit tests and performing widget testing for Flutter applications." },
+    { "name": "Responsive Design", "description": "Ability to create responsive layouts for various screen sizes and orientations." },
+    { "name": "Performance Optimization", "description": "Experience in optimizing app performance for speed and responsiveness." },
+    { "name": "Debugging & Profiling", "description": "Proficient in debugging and using performance profiling tools to identify and resolve issues." }
+  ],
+  "education": {
+    "degree": "Computer Science",
+    "institution": "Faculty of Computers and Information",
+    "period": "09/2014 – 09/2018"
+  },
+  "certificates": [
+    { "title": "Clean Code", "url": "https://www.udemy.com/certificate/UC-b12d90ac-2661-410f-81fd-2db79b302d5d/" },
+    { "title": "Clean Architecture in Flutter 3 (Arabic)", "url": "https://www.udemy.com/certificate/UC-106fade0-47f2-4c00-b8fe-ffcbd1f8f21d/" },
+    { "title": "Flutter BLoC - From Zero to Hero Complete Course", "url": "https://www.udemy.com/certificate/UC-290a6f9b-ad53-41ee-bcfd-d76678f50801/" },
+    { "title": "The Complete 2022 Flutter & Dart Development Course [Arabic]", "url": "https://www.udemy.com/certificate/UC-d36684a5-c59f-48f8-9bb9-5529f6ba978e/" },
+    { "title": "Dart - from Novice to Expert Complete Course", "url": "https://www.udemy.com/certificate/UC-67e2f920-11de-43a8-a8d1-425d413efaed/" },
+    { "title": "Flutter & Dart - The Complete Guide [2023 Edition]", "url": "https://www.udemy.com/certificate/UC-e8b27876-9a9d-4def-b1bf-dd4208161683/" }
+  ],
+  "languages": ["Arabic", "English"],
+  "notShownUris": [
+    { "uri": "https://dev-fluttery.getportify.com/", "label": "Portfolio", "reason": "Old portfolio; this site replaces it (requirements, Assumptions)." }
+  ]
+}
