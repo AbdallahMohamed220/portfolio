@@ -61,12 +61,12 @@ Execution order:
   - Check that binaries were staged unchanged: the staged blob hash of `portfolio/assets/cv.pdf` and `avatar.jpg` equals `git hash-object` of the working file (guards against line-ending conversion).
   - One commit of the whole project. The commit message ends with the required Co-Authored-By line, which the orchestrator passes in the step prompt.
   - No remote is added and nothing is pushed.
-  - Step doc `03-step-3-git-init-commit.md` (scan commands, hit list with verdicts, commit hash, file count).
+  - Step doc `03-step-3-init-commit.md` (scan commands, hit list with verdicts, commit hash, file count).
 - **Done when:**
   - `git status` is clean, `git log` shows exactly one commit on `main` by the user's identity with the Co-Authored-By trailer.
   - `git ls-files` includes `portfolio/`, `tests/`, `docs/`, `.claude/`, `CLAUDE.md`, `README.md`, `.gitignore`, `.github/workflows/pages.yml`.
   - The scan has zero real findings. `git remote -v` is empty.
-- **Status:** in-progress
+- **Status:** done
 
 ### Step 4 — USER/orchestrator gate: GitHub login and repo check
 - **Agent:** none — USER/orchestrator gate, not delegated. No subagent can do this: it needs the user's interactive login, and only the orchestrator talks to the user.
@@ -79,7 +79,7 @@ Execution order:
   - The orchestrator runs `gh repo view AbdallahMohamed220/portfolio` and confirms it fails with "not found". If the repo exists: stop and ask the user; never overwrite it.
   - The orchestrator records the result (account name, repo-absent check) in `02-plan.md` under this step. No token text is copied anywhere.
 - **Done when:** the login is `AbdallahMohamed220`, the `portfolio` repo does not exist, and the user has said so or the command output shows it.
-- **Status:** in-progress
+- **Status:** done
 
 ### Step 5 — Create the public repo, enable Pages, push, and confirm the deploy
 - **Agent:** developer
@@ -98,7 +98,7 @@ Execution order:
   - `https://github.com/AbdallahMohamed220/portfolio` exists, is public, and `main` matches the local `main` commit.
   - `gh api repos/AbdallahMohamed220/portfolio/pages` shows `build_type: workflow`.
   - The latest Pages workflow run is `success`, and its log shows the `check-content.js` step passed.
-- **Status:** todo
+- **Status:** done
 
 ### Step 6 — Verify the live site
 - **Agent:** tester
@@ -115,7 +115,7 @@ Execution order:
     - Repo side: the repo is public, `main` has the whole project, and a grep of the cloned or fetched tree finds no token patterns (the Step 3 list).
   - Test scripts and downloads stay in the scratchpad. Nothing is added to the repo, because it is already pushed.
 - **Done when:** every DoD item has a result with evidence; failures are reported with reproduction steps, and no production file is changed.
-- **Status:** todo
+- **Status:** done
 
 ## Risks / open questions
 - **Pages enable on an empty repo:** the Pages API may refuse `build_type=workflow` before the first push. Step 5 has a fallback order (push, enable, `gh workflow run`), which is why `pages.yml` includes `workflow_dispatch`.
@@ -128,3 +128,5 @@ Execution order:
 ## User decisions (plan approved 2026-11-18)
 - After the review, make one final commit and push of this task's docs (step reports, review, summary and plan statuses).
 - Every commit message ends with this trailer: `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`
+- **Commit email (decided after Step 3):** use the GitHub noreply address `<id>+AbdallahMohamed220@users.noreply.github.com`, set as a repo-local `user.email` only. Re-author commit c8c209d with `git commit --amend --reset-author --no-edit` before the push. Remove the work email from `03-step-3-init-commit.md` before the final docs push.
+- **Step 4 gate passed (orchestrator):** `gh auth status` shows the login `AbdallahMohamed220` (id 52679338), with the scopes repo, workflow, read:org and gist. `AbdallahMohamed220/portfolio` does not exist yet. The noreply email is `52679338+AbdallahMohamed220@users.noreply.github.com`.
