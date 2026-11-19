@@ -85,7 +85,7 @@ Execution order: Step 1, then Step 2, then Step 3. Nothing runs in parallel.
   - The push succeeds without force.
   - The Pages run concludes `success`.
   - The live page shows the Education and Certificates sections and nav links.
-- **Status:** in-progress
+- **Status:** done
 
 ## Risks / open questions
 - **Nav fit (main risk):** at 768px, the logo, 6 links (longer in AR) and the language and theme buttons may not fit in one row. Tightening the spacing may not be enough, and the fallback is raising the breakpoint to about 1024px. This is allowed by the requirements, but it means tablets in portrait get the hamburger menu.
