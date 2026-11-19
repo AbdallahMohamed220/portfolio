@@ -67,6 +67,8 @@
           <li><a class="nav-link" href="#about" data-i18n="nav.about"></a></li>
           <li><a class="nav-link" href="#projects" data-i18n="nav.projects"></a></li>
           <li><a class="nav-link" href="#skills" data-i18n="nav.skills"></a></li>
+          <li><a class="nav-link" href="#education" data-i18n="nav.education"></a></li>
+          <li><a class="nav-link" href="#certificates" data-i18n="nav.certificates"></a></li>
           <li><a class="nav-link" href="#contact" data-i18n="nav.contact"></a></li>
         </ul>
       </nav>
@@ -142,23 +144,29 @@
             <h3 class="subsection-title" data-i18n="experience.title"></h3>
             <ol class="timeline" id="experience-list" role="list"></ol>
           </div>
-          <div class="credentials">
-            <div class="credential-block" id="education">
-              <h3 class="subsection-title" data-i18n="education.title"></h3>
-              <p class="education-degree" data-i18n="education.degree"></p>
-              <p class="education-institution" data-i18n="education.institution"></p>
-              <p class="education-period" data-i18n="education.period"></p>
-            </div>
-            <div class="credential-block" id="certificates">
-              <h3 class="subsection-title" data-i18n="certificates.title"></h3>
-              <ul class="certificate-list" id="certificates-list" role="list"></ul>
-            </div>
-            <div class="credential-block" id="languages">
-              <h3 class="subsection-title" data-i18n="languages.title"></h3>
-              <ul class="tag-list" id="languages-list" role="list"></ul>
-            </div>
+          <div class="languages-block" id="languages">
+            <h3 class="subsection-title" data-i18n="languages.title"></h3>
+            <ul class="tag-list" id="languages-list" role="list"></ul>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section reveal" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <h2 class="section-title" id="education-title" data-i18n="education.title"></h2>
+        <p class="education-degree" data-i18n="education.degree"></p>
+        <p class="education-institution" data-i18n="education.institution"></p>
+        <p class="education-period" data-i18n="education.period"></p>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="section reveal" id="certificates" aria-labelledby="certificates-title">
+      <div class="container">
+        <h2 class="section-title" id="certificates-title" data-i18n="certificates.title"></h2>
+        <ul class="certificate-list" id="certificates-list" role="list"></ul>
       </div>
     </section>
 

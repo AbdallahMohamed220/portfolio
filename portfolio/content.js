@@ -145,6 +145,8 @@ window.PORTFOLIO_CONTENT = {
       about: "About",
       projects: "Projects",
       skills: "Skills & Experience",
+      education: "Education",
+      certificates: "Certificates",
       contact: "Contact"
     },
     ui: {
@@ -462,6 +464,8 @@ window.PORTFOLIO_CONTENT = {
       about: "نبذة عني",
       projects: "المشاريع",
       skills: "المهارات والخبرات",
+      education: "التعليم",
+      certificates: "الشهادات",
       contact: "تواصل معي"
     },
     ui: {

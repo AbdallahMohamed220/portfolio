@@ -66,7 +66,7 @@ Both blocks have exactly the same keys. Change only the text values.
 | Key | Contents |
 |-----|----------|
 | `meta` | `lang`, `dir` (`"ltr"` / `"rtl"`, leave these as they are), `title` (browser tab), `description` (meta description). |
-| `nav` | `label` (screen-reader name of the menu), `about`, `projects`, `skills`, `contact`. |
+| `nav` | `label` (screen-reader name of the menu), `about`, `projects`, `skills`, `education`, `certificates`, `contact` (one link per section, in page order). |
 | `ui` | `skipLink`, `menuOpen`, `menuClose`, `themeToDark`, `themeToLight`, `langToggle` (name of the *other* language, written in that language), `langToggleLabel` (screen-reader name of the language button, in that same other language; it must contain the `langToggle` text), `downloadCv`, `projectDetails` (summary text of the collapsible block on each project card), `keyContributions`, `keyChallenge` (headings inside that block), `googlePlay`, `appStore` (store button labels). |
 | `hero` | `greeting`, `name`, `role`, `location`, `tagline`, `avatarAlt`, `ctaProjects`, `ctaContact`. |
 | `about` | `title`, `paragraphs` (a list of strings, one per paragraph). |
@@ -79,7 +79,16 @@ Both blocks have exactly the same keys. Change only the text values.
 | `contact` | `title`, `intro`, `emailLabel`, `phoneLabel`, `phoneDisplay` (the number as visitors see it, for example `"+20 114 723 4230"`), `githubLabel`, `linkedinLabel`, `stackoverflowLabel`. |
 | `footer` | `text`. |
 
-Education, certificates and languages are shown inside the Skills & Experience section.
+The page has six sections, each with a nav link, in this order:
+
+1. **About** (hero and `about`)
+2. **Projects** (`projects`)
+3. **Skills & Experience** (`skills`, `experience` and `languages`)
+4. **Education** (`education`)
+5. **Certificates** (`certificates`)
+6. **Contact** (`contact`)
+
+Below 1024px wide, the nav links are in the menu button (hamburger).
 
 ### Rules
 

@@ -4,7 +4,8 @@
  * - Themes: CSS variables, chosen by data-theme="light" | "dark" on <html>.
  *   Without data-theme (no JS), the system preference is used.
  * - RTL: logical properties throughout; direction comes from dir on <html>.
- * - Layout: mobile-first, breakpoints at 768px and 1280px.
+ * - Layout: mobile-first, breakpoints at 768px and 1280px. The header nav
+ *   switches from the menu button to inline links at 1024px (6 links).
  * - Motion: .reveal / .is-visible fade-in, smooth scrolling; both are turned
  *   off under prefers-reduced-motion.
  */
@@ -305,7 +306,7 @@ main:focus {
   }
 }
 
-/* Menu button (hamburger) — only with JS, only below 768px. */
+/* Menu button (hamburger) — only with JS, only below 1024px. */
 .nav-toggle {
   display: none;
 }
@@ -745,13 +746,7 @@ main:focus {
   color: var(--muted);
 }
 
-/* Education, certificates and languages */
-.credentials {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 2.5rem;
-}
-
+/* ---------- Education and Certificates ---------- */
 .education-degree {
   font-weight: 600;
 }
@@ -851,34 +846,6 @@ main:focus {
     --section-space: 5rem;
   }
 
-  .site-nav {
-    order: 0;
-  }
-
-  .header-actions {
-    order: 0;
-  }
-
-  .js .nav-toggle {
-    display: none;
-  }
-
-  .nav-menu,
-  .js .nav-menu {
-    display: flex;
-    flex-wrap: nowrap;
-    position: static;
-    flex-direction: row;
-    padding: 0;
-    background: none;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .js .nav-menu .nav-link {
-    padding-block: 0.5rem;
-  }
-
   .hero-inner {
     grid-template-columns: minmax(0, 1fr) auto;
     justify-items: start;
@@ -906,16 +873,41 @@ main:focus {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .credentials {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  #certificates {
-    grid-column: 1 / -1;
-  }
-
   .contact-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ---------- Inline nav: 1024px and up ---------- */
+/* The 6 nav links, the full name and the header actions need about 900px in
+   one row (EN and AR), so tablets below 1024px keep the menu button. */
+@media (min-width: 1024px) {
+  .site-nav {
+    order: 0;
+  }
+
+  .header-actions {
+    order: 0;
+  }
+
+  .js .nav-toggle {
+    display: none;
+  }
+
+  .nav-menu,
+  .js .nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    position: static;
+    flex-direction: row;
+    padding: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .js .nav-menu .nav-link {
+    padding-block: 0.5rem;
   }
 }
 
@@ -929,7 +921,7 @@ main:focus {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  /* Skills span the full width; experience and credentials share the row below. */
+  /* Skills span the full width; experience and languages share the row below. */
   .skills-layout {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 3rem 4rem;
@@ -941,10 +933,6 @@ main:focus {
 
   .skill-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .credentials {
-    grid-template-columns: minmax(0, 1fr);
   }
 
   .contact-list {
